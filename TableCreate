@@ -1,0 +1,13 @@
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Email NVARCHAR(100)
+);
+INSERT INTO Employees(EmployeeID,FirstName,LastName,Email)VALUES
+(2000079930,'Lalitha','Siriki','LalithaS1@hexaware.com'),
+(1000075856,'Melvina','Michael','melvinapushpamm@hexaware.com'),
+(1000043292,'Mangaykarasi','L','mangayarkarasil@hexaware.com'),
+(2000078088,'Akash','S','akashs19@hexaware.com'),
+(2000078175,'Harshavardhan','Reddy','yenugah@hexaware.com'),
+(2000081237,'Logeswaran','A','logeswarana@hexaware.com');
